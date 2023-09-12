@@ -1,0 +1,16 @@
+<div class="tracks-page">
+  <!-- Seccion small  -->
+  <app-section-generic
+    [mode]="'small'"
+    [title]="'!La mejor música del mundo !'"
+    [dataTracks]="tracksTrending"
+  >
+  </app-section-generic>
+  <!-- Seccion big  -->
+  <app-section-generic
+    [dataTracks]="tracksRandom"
+    [mode]="'big'"
+    [title]="'!Lo mejor de electrónica !'"
+  >
+  </app-section-generic>
+</div>
